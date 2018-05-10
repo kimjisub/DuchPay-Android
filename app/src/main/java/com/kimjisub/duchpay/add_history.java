@@ -4,8 +4,7 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
-import android.view.KeyEvent;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
@@ -13,18 +12,12 @@ import android.widget.ListView;
 import android.widget.Switch;
 import android.widget.TextView;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 
 /**
  * Created by jisub on 2015-07-16.
  */
-public class add_history extends ActionBarActivity {
+public class add_history extends AppCompatActivity {
 	
 	ArrayList<String> name;
 	내역 data;
