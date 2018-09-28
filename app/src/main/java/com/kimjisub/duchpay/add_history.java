@@ -38,7 +38,7 @@ public class add_history extends AppCompatActivity {
 			data.사용인원 = new String[0];
 			data.시간 = System.currentTimeMillis();
 			인원설정();
-		}else{
+		} else {
 			data = new 내역(JSONData);
 		}
 		
